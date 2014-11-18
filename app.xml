@@ -203,7 +203,7 @@
 <div id="container" style="position:relative; width:100%;">
 
   <div style="width: 420px; background-color: #ffffff; position: fixed; bottom: 0; z-index: 6;">
-    <a class="btn btn-small btn-danger" id="triggerReportMisconduct" style="margin: 3px;">Report Misconduct</a>
+    <a class="btn btn-small btn-danger" id="triggerReportMisconduct" style="margin: 3px;">Report Misconduct please!</a>
   </div>
   
    <div style="width: 420px; background-color: #ffffff; position: fixed; bottom: 0; z-index: 6;">
