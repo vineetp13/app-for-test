@@ -233,7 +233,7 @@
     </form>
   </div>
   <!-- Notice displayed when a misconduct report has been submitted -->
-  <div id="confirmSentReport" style="display:hidden;" class="idea">
+  <div id="confirmSentIdea" style="display:hidden;" class="idea">
     <div><button onclick='closeReportMisconduct()' class='close closeReportMisconduct'>×</button><h3>Misconduct Report Sent</h3></div><p>Thank you for submitting a misconduct report. 
     Your report has been filed with the course instructors and discussion session monitors. A course monitor may drop by this hangout to discretely assess the situation and address your concern.
      In the meantime, if you are bothered by the individual, you can block them by following these instructions provided by Google:</p>
@@ -559,6 +559,26 @@
     $('#reportMisconduct').hide();
     $('#confirmSentReport').show();
   });
+  
+  //vineet - Submit Idea portions
+  $('#triggerSubmitIdea').click(function() {
+    $('#triggerSubmitIdea').hide();
+    $('#submitIdea').show();
+    recenterCanvas();
+    var participantNames = "<option></option>";
+    var participants = gapi.hangout.getParticipants();
+    for (var i in participants) {
+      participantNames += ("<option value='" + participants[i].person.displayName + "''>"+ participants[i].person.displayName + "</option>");
+    }
+    $('#participants-list').html(participantNames);
+  });
+  
+   $('#submitIdea').click(function () {
+    var idea_data = JSON.stringify($('#ideaForm').serializeObject());
+    activateSilentAlarm(idea_data);
+    $('#submitIdea').hide();
+    $('#confirmSentIdea').show();
+  });
 
   function activateSilentAlarm(report_data) {
     var appData = gadgets.views.getParams()['appData'];
@@ -577,6 +597,13 @@
     $('#reportMisconduct').hide();
     $('#confirmSentReport').hide();
     $('#triggerReportMisconduct').show();
+    recenterCanvas();
+  };
+  
+  function closeSubmitIdea() {
+    $('#submitIdea').hide();
+    $('#confirmSentIdea').hide();
+    $('#triggerSubmitIdea').show();
     recenterCanvas();
   };
 
