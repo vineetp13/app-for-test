@@ -355,7 +355,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available murakami1.   
+      The agenda is not available murakami2.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -391,11 +391,10 @@
     </div>
    </div>
    
-   <div id="nextStage" style="display:hidden;">
+<!---   <div id="nextStage" style="display:hidden;">
       <h3>Next stage is "Let's stay excited"stage </h3>
-   </div>
-   
-    
+   </div>--->
+  
   </div>
   
   
