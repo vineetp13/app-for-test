@@ -65,7 +65,7 @@
     width: 380px;
     padding: 20px;
     bottom: 0;
-    height: 200px;
+    height: 500px;
   }
 
   .legend {
@@ -355,7 +355,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available murakami1234567.   
+      The agenda is not available murakami12345678.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
