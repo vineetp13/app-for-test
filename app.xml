@@ -56,7 +56,8 @@
     float: left;
     width: 380px;
     padding: 20px;
-    height: 100px
+    height: 100px;
+    background-color: #e5e5e5;
   }
   
    #stage_container {
@@ -354,7 +355,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available haruki1.   
+      The agenda is not available haruki12.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
