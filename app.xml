@@ -351,7 +351,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available abc.  
+      The agenda is not available abc22.  
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -732,6 +732,7 @@
     var newSize = canvas.setHeight(CANVAS_HEIGHT);
     CANVAS_WIDTH = newSize.width
     canvas.setVideoFeed(feed);
+    //vineet - set to false
     canvas.setVisible(false);
     var leftOffset = 40;
     if ($("#agenda_container").is(":visible")) {
@@ -764,7 +765,8 @@
       leftOffset = ($(window).width() - CANVAS_WIDTH)/2;
     }
     canvas.setPosition(leftOffset, 0);
-    canvas.setVisible(true);
+    //vineet - set to false
+    canvas.setVisible(false);
     $("#agenda_container").height(CANVAS_HEIGHT);
   };
 
