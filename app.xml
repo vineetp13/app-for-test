@@ -243,14 +243,14 @@
       </div>
       <div class="idea-footer" style="padding-top: 5px; ">
         <p>The teaching staff takes these reports seriously. Please submit a report only if you believe the behavior of the individual listed above warrants the attention of an instructor.</p>
-        <a onclick='closeSubmitIdea()' class="closeSubmitIdea btn">Close</a>
+        <a onclick='closeSubmitIdea()' class="closeS btn">Close</a>
         <a id="submitIdea" class="btn btn-primary">Submit Idea</button>
       </div>
     </form>
   </div>
   <!-- Notice displayed when a idea submit has been submitted -->
   <div id="confirmSentIdea" style="display:hidden;" class="idea">
-    <div><button onclick='closeSubmitIdea()' class='close closeReportMisconduct'>×</button><h3>Misconduct Report Sent</h3></div><p>Thank you for submitting a misconduct report. 
+    <div><button onclick='closeSubmitIdea()' class='close closeSubmitIdea'>×</button><h3>Misconduct Report Sent</h3></div><p>Thank you for submitting a misconduct report. 
     Your report has been filed with the course instructors and discussion session monitors. A course monitor may drop by this hangout to discretely assess the situation and address your concern.
      In the meantime, if you are bothered by the individual, you can block them by following these instructions provided by Google:</p>
     
