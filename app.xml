@@ -581,12 +581,12 @@
     $('#triggerSubmitIdea').hide();
     $('#submitIdea').show();
     recenterCanvas();
-    var participantNames = "<option></option>";
-    var participants = gapi.hangout.getParticipants();
-    for (var i in participants) {
-      participantNames += ("<option value='" + participants[i].person.displayName + "''>"+ participants[i].person.displayName + "</option>");
+    var ideaNames = "<option></option>";
+    var ideas = gapi.hangout.getParticipants();
+    for (var i in ideas) {
+      ideaNames += ("<option value='" + ideas[i].person.displayName + "''>"+ ideas[i].person.displayName + "</option>");
     }
-    $('#ideas-list').html(participantNames);
+    $('#ideas-list').html(ideaNames);
   });
   
    $('#submitIdea').click(function () {
