@@ -604,14 +604,8 @@
   $('#triggerShowProblem').click(function() {
     $('#triggerShowProblem').hide();
     $('#showProblem').show();
-    recenterCanvas();
-
+    recenterCanvas(); //vineet - necessary? 
   });  
-  
-   $('#showProblem').click(function () {
-    $('#submitIdea').hide();
-    $('#confirmSentIdea').show();
-  });
   
   //vineet - Submit Idea portions
   $('#triggerSubmitIdea').click(function() {
