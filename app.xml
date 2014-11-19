@@ -59,7 +59,8 @@
   }
   
    #stage_container {
-    float: left;
+    //float: left;
+    position:fixed
     width: 200px;
     padding: 20px;
   }
@@ -351,7 +352,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available abc2255551.  
+      The agenda is not available yamaha.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -385,7 +386,7 @@
     <a class="btn btn-small btn-danger" id="triggerNextStage" style="margin: 20px;">Next Stage</a>
   </div>
   
-  <div id="nextStage" >
+  <div id="nextStage" style="display:hidden;">
       <h3>Next stage is "Let's stay excited"stage </h3>
   </div>
   
