@@ -111,6 +111,12 @@
     font-size: 24pt;
     font-weight: 600;
   }
+  
+  #problem-label {
+    font-size: 24pt;
+    font-weight: 600;
+  }
+  
   .nav-pills>li>a {
     border-radius: 5px;
     padding: 3px 3px;
@@ -129,6 +135,13 @@
   }
   
   #stage_details {
+    float:right;
+    font-size:10pt;
+    font-weight: 600;
+    color:#777777;
+  }
+  
+   #problem_details {
     float:right;
     font-size:10pt;
     font-weight: 600;
@@ -355,7 +368,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available murakami123456.   
+      The agenda is not available murakami1234567.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -366,7 +379,7 @@
     <!---Problem panel--->
     <div id="problem-header">
       <span id="stage-label">Problem</span>
-      <div id="stage_details" style="padding-right:20px;"> 
+      <div id="problem_details" style="padding-right:20px;"> 
         &nbsp;
       </div>
     </div>
