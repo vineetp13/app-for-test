@@ -194,6 +194,22 @@
     overflow: scroll;
   }
 
+
+  .idea {
+    width: 380px;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+    border-bottom: 0px;
+    background: #eeeeee;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display:none;
+    z-index:5;
+    padding: 10px;
+    overflow: scroll;
+  }
+
   .hidden {
     display: none;
   }
