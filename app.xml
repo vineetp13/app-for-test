@@ -351,7 +351,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available xyz.  
+      The agenda is not available abc.  
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -386,9 +386,7 @@
   </div>
   
   <div id="nextStage" >
-    
       <h3>Next stage is "Let's stay excited"stage </h3>
- 
   </div>
   
     $('#triggerNextStage').click(function() {
@@ -734,7 +732,7 @@
     var newSize = canvas.setHeight(CANVAS_HEIGHT);
     CANVAS_WIDTH = newSize.width
     canvas.setVideoFeed(feed);
-    canvas.setVisible(true);
+    canvas.setVisible(false);
     var leftOffset = 40;
     if ($("#agenda_container").is(":visible")) {
       leftOffset += $("#agenda_container").width();
