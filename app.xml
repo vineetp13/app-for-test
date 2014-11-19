@@ -246,7 +246,9 @@
   </div>
   
    <div id="showProblem" class="problem">
-   	This is some text about the problem. 
+   		<div class="problem-header">
+   			<h3>This is some text about the problem.</h3>
+   		</div> 
    </div>
   
   
@@ -331,7 +333,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available man.  
+      The agenda is not available yo2.  
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -606,6 +608,11 @@
     $('#showProblem').show();
     recenterCanvas(); 
   });  
+  
+   $('#showProblem').click(function () {
+    $('#showProblem').hide();
+    $('#triggerShowProblem').show();
+  });
   
   //vineet - Submit Idea portions
   $('#triggerSubmitIdea').click(function() {
