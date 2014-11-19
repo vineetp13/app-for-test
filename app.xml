@@ -233,8 +233,8 @@
     </div>
     <form id="ideaForm">
       <div class="idea-body">
-        <label for="participants-list">Offending Participant:</label>
-        <select name="name" id="participants-list">
+        <label for="ideas-list">Offending Idea:</label>
+        <select name="name" id="ideas-list">
         </select>
         <br/>
         <br>
@@ -257,7 +257,7 @@
     <ol><li>Hover over the person’s video feed or image on the bottom of the screen, and you’ll see the option to mute or block the person.</li><li>Click the block icon.</li><li>The person will 
     automatically be&nbsp;“ignored” for the duration of the Hangout and you won’t be able to see, hear, or interact with each other for the rest of the Hangout. If you “ignored” the person accidentally, 
     simply click&nbsp;<strong>Undo</strong>.</li><li>If you want to permanently block someone, select the check box next to&nbsp;<strong>Permanently block [this person] on Google</strong>.</li><li>Click&nbsp;<strong>Done</strong>&nbsp;
-    to confirm that you want to block the person.</li></ol><br/><a onclick='closeSubmitIdea()' class='closeReportMisconduct btn'>Close</a>
+    to confirm that you want to block the person.</li></ol><br/><a onclick='closeSubmitIdea()' class='closeSubmitIdea btn'>Close</a>
   </div>
 
   <!-- REPORT MISCONDUCT PANEL: Hidden by default (triggered by clicking the red "Report Misconduct" button on the bottom left). When active, it appears on top of the agenda. -->
@@ -586,7 +586,7 @@
     for (var i in participants) {
       participantNames += ("<option value='" + participants[i].person.displayName + "''>"+ participants[i].person.displayName + "</option>");
     }
-    $('#participants-list').html(participantNames);
+    $('#ideas-list').html(participantNames);
   });
   
    $('#submitIdea').click(function () {
