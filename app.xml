@@ -96,7 +96,11 @@
     font-size: 24pt;
     font-weight: 600;
   }
-
+  
+  #stage-label {
+    font-size: 24pt;
+    font-weight: 600;
+  }
   .nav-pills>li>a {
     border-radius: 5px;
     padding: 3px 3px;
@@ -108,6 +112,13 @@
   }
 
   #agenda_details {
+    float:right;
+    font-size:10pt;
+    font-weight: 600;
+    color:#777777;
+  }
+  
+  #stage_details {
     float:right;
     font-size:10pt;
     font-weight: 600;
@@ -333,7 +344,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available yoyoyo.  
+      The agenda is not available y4.  
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
