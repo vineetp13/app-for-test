@@ -231,7 +231,7 @@
     <div class="idea-header">
       <h3>Submit Idea</h3>
     </div>
-    <form id="reportForm">
+    <form id="ideaForm">
       <div class="idea-body">
         <label for="participants-list">Offending Participant:</label>
         <select name="name" id="participants-list">
@@ -241,9 +241,9 @@
         <label>Describe inappropriate behavior [required]</label><br>
         <textarea wrap="physical" cols="40" name="comments" rows="3"></textarea><br/>
       </div>
-      <div class="misconduct-footer" style="padding-top: 5px; ">
+      <div class="idea-footer" style="padding-top: 5px; ">
         <p>The teaching staff takes these reports seriously. Please submit a report only if you believe the behavior of the individual listed above warrants the attention of an instructor.</p>
-        <a onclick='closeSubmitIdea()' class="closeReportMisconduct btn">Close</a>
+        <a onclick='closeSubmitIdea()' class="closeSubmitIdea btn">Close</a>
         <a id="submitIdea" class="btn btn-primary">Submit Idea</button>
       </div>
     </form>
