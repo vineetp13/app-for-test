@@ -266,7 +266,7 @@
     <a class="btn btn-small btn-danger" id="triggerSubmitIdea" style="margin: 20px;">Provide your ideas after Thinking</a>
   </div>
   
-   <div id="showProblem" class="problem">
+   <div id="showProblem" class="problem" style:"top:100">
    		<div class="problem-header">
    			<h3>This is some text about the problem.</h3>
    		</div> 
@@ -355,7 +355,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available haruki12345678.   
+      The agenda is not available murakami.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
