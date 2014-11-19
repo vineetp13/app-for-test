@@ -355,13 +355,18 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available haruki12345.   
+      The agenda is not available haruki123456.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
           <span>Exit this Hangout and re-enter from the Talkabout course page. On the same Talkabout page, click the "Enter Hangout"/"Join the Hangout" buttons to re-launch the Hangout.</span>
         </div>
     </div>
+    
+      <!-- STAGE PANEL-->
+  <div id="show_stage">
+    <span id="show_stage_label" style="font-size: 10pt;">Show Stage &#9660;</span>
+  </div>
     
    <div id="stage_container" style="overflow:scroll; position:relative;">
     <a id="hide_stage" style="float:right; font-size:14pt; padding: 5px; text-decoration:none; color:#00000; cursor: pointer;" title="Hide Discussion Topics">&times;</a>
@@ -386,10 +391,7 @@
     
   </div>
   
-    <!-- STAGE PANEL-->
-  <div id="show_stage">
-    <span id="show_stage_label" style="font-size: 10pt;">Show Stage &#9660;</span>
-  </div>
+  
   
   
   
