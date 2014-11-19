@@ -59,8 +59,8 @@
   }
   
    #stage_container {
-    //float: left;
-    position:fixed
+    float: right;
+    //position:fixed
     width: 200px;
     padding: 20px;
   }
@@ -73,7 +73,7 @@
     line-height: 40px;
     color: #333333;
     border: 0;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 200px solid #e5e5e5;
   }
 
   #header {
@@ -352,7 +352,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available yamahasan.   
+      The agenda is not available yamahasan22.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
