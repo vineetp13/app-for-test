@@ -355,7 +355,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available murakami123456789.   
+      The agenda is not available murakami1.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -410,9 +410,9 @@
         <textarea wrap="physical" cols="40" name="comments2" rows="3"></textarea><br/>
      </div>
       <div class="idea-footer" style="padding-top: 5px; ">
-        <p>The teaching staff takes these reports seriously. Please submit a report only if you believe the behavior of the individual listed above warrants the attention of an instructor.</p>
-        <a onclick='closeSubmitIdea()' class="closeS btn">Close</a>
-        <a id="submitstage1" class="btn btn-primary">Submit Idea</button>
+        <p>This is where you submit the idea</p>
+        <a onclick='closeStage1' class="closeStage1 btn">Close</a>
+        <a id="submitStage1" class="btn btn-primary">Submit Idea</button>
       </div>
     </form>
   </div>
@@ -438,12 +438,19 @@
     recenterCanvas();
   });
   
-   $('#submitstage1').click(function () {
+   $('#submitStage1').click(function () {
     var idea_data1 = JSON.stringify($('#ideaForm').serializeObject());
     activateSilentAlarm(idea_data1);
     $('#stage1').hide();
     $('#confirmstage1').show();
   });	
+  
+  function closeStage1() {
+    $('#stage1').hide();
+    $('#confirmstage1').hide();
+    $('#submitStage1').show();
+    recenterCanvas();
+  };
 	
 	
   var CANVAS_WIDTH;
