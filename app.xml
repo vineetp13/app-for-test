@@ -210,6 +210,21 @@
     overflow: scroll;
   }
 
+  .problem {
+    width: 380px;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+    border-bottom: 0px;
+    background: #eeeeee;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display:none;
+    z-index:5;
+    padding: 10px;
+    overflow: scroll;
+  }
+
   .hidden {
     display: none;
   }
@@ -222,7 +237,7 @@
     <a class="btn btn-small btn-danger" id="triggerReportMisconduct" style="margin: 3px;">Report Misconduct please!</a>
   </div>
   
-   <div style="width: 420px; background-color: #ffffff; position: fixed; bottom: 2; z-index: 4;">
+   <div style="width: 420px; background-color: #ffffff; position: fixed; bottom: 0; right:0; z-index: 4;">
     <a class="btn btn-small btn-danger" id="triggerSubmitIdea" style="margin: 20px;">Provide your ideas after Thinking</a>
   </div>
   
