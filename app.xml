@@ -57,6 +57,12 @@
     width: 380px;
     padding: 20px;
   }
+  
+   #stage_container {
+    float: right;
+    width: 200px;
+    padding: 20px;
+  }
 
   .legend {
     display: block;
@@ -344,7 +350,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available y4.  
+      The agenda is not available y451.  
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
