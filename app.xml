@@ -237,9 +237,18 @@
     <a class="btn btn-small btn-danger" id="triggerReportMisconduct" style="margin: 3px;">Report Misconduct please!</a>
   </div>
   
+  <div style="width: 420px; background-color: #ffffff; position: fixed; bottom: 0; right:10; z-index: 10;">
+    <a class="btn btn-small btn-danger" id="triggerShowProblem" style="margin: 20px;">Problem for discussion</a>
+  </div>
+  
    <div style="width: 420px; background-color: #ffffff; position: fixed; bottom: 0; right:0; z-index: 4;">
     <a class="btn btn-small btn-danger" id="triggerSubmitIdea" style="margin: 20px;">Provide your ideas after Thinking</a>
   </div>
+  
+   <div id="showProblem" class="problem">
+   	This is some text about the problem. 
+   </div>
+  
   
     <!-- SUBMIT IDEAS AFTER THINKING BUTTON: Hidden by default (triggered by clicking the red "provide ideas after thinking" button on the bottom left). When active, it appears on top of the agenda. -->
   <div id="submitIdea" class="idea">
@@ -589,6 +598,19 @@
     activateSilentAlarm(report_data);
     $('#reportMisconduct').hide();
     $('#confirmSentReport').show();
+  });
+  
+  //vineet - show Problem portions
+  $('#triggerShowProblem').click(function() {
+    $('#triggerShowProblem').hide();
+    $('#showProblem').show();
+    recenterCanvas();
+
+  });  
+  
+   $('#showProblem').click(function () {
+    $('#submitIdea').hide();
+    $('#confirmSentIdea').show();
   });
   
   //vineet - Submit Idea portions
