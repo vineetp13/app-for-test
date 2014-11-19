@@ -307,7 +307,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available right now. 
+      The agenda is not available baba. 
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -336,7 +336,7 @@
     gapi.hangout.onApiReady.add(
       function(eventObj) {
         if (eventObj.isApiReady) {
-            gapi.hangout.layout.setChatPaneVisible(false);
+            gapi.hangout.layout.setChatPaneVisible(true);
             gapi.hangout.layout.displayNotice("Pro-Tip: For better audio quality, use a headset or headphones.", true);
             setCanvas();
         }
