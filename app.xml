@@ -355,7 +355,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available murakami1234.   
+      The agenda is not available murakami12345.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -380,6 +380,7 @@
     <div id="stage_content">
     	<ol>
       <li> <a class="btn btn-small btn-danger" id="triggerSubmitIdea" style="margin: 20px;"> Current stage: Think of your idea. Type it in.</a>
+      <textarea wrap="physical" cols="20" name="comments3" rows="3"></textarea><br/>
       </li><li> 2. Next stage: Discuss your ideas with the group. Here are your ideas: </li> 
       3. Select best two ideas. Type them in.  
       4. Pair with a group to discuss one idea to discuss the challenges. Type in the challenges. 
