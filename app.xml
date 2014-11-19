@@ -291,6 +291,7 @@
       </div>
     </form>
   </div>
+  
   <!-- Notice displayed when a idea submit has been submitted -->
   <div id="confirmSentIdea" style="display:hidden;" class="idea">
     <div><button onclick='closeSubmitIdea()' class='close closeSubmitIdea'>×</button><h3>Misconduct Report Sent</h3></div><p>Thank you for submitting a misconduct report. 
@@ -363,6 +364,7 @@
   <div id="show_stage">
     <span id="show_stage_label" style="font-size: 10pt;">Show Stage &#9660;</span>
   </div>
+  
   <div id="stage_container" style="overflow:scroll; position:relative;">
     <a id="hide_stage" style="float:right; font-size:14pt; padding: 5px; text-decoration:none; color:#00000; cursor: pointer;" title="Hide Discussion Topics">&times;</a>
     <div id="stage-header">
@@ -378,6 +380,21 @@
   
     </div>
   </div>
+  
+   <div style="width: 420px; background-color: #ffffff; position: fixed; bottom: 0; right:0; z-index: 4;">
+    <a class="btn btn-small btn-danger" id="triggerNextStage" style="margin: 20px;">Next Stage</a>
+  </div>
+  
+  <div id="nextStage" >
+    
+      <h3>Next stage is "Let's stay excited"stage </h3>
+ 
+  </div>
+  
+    $('#triggerNextStage').click(function() {
+    $('#nextStage').show();
+    recenterCanvas();
+  });
 
 </div>
 </html>
