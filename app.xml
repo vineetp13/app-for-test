@@ -234,12 +234,12 @@
     <form id="ideaForm">
       <div class="idea-body">
         <label for="ideas-list">Offending Idea:</label>
-        <select name="name" id="ideas-list">
+        <select name="name2" id="ideas-list">
         </select>
         <br/>
         <br>
         <label>Describe inappropriate behavior [required]</label><br>
-        <textarea wrap="physical" cols="40" name="comments" rows="3"></textarea><br/>
+        <textarea wrap="physical" cols="40" name="comments2" rows="3"></textarea><br/>
       </div>
       <div class="idea-footer" style="padding-top: 5px; ">
         <p>The teaching staff takes these reports seriously. Please submit a report only if you believe the behavior of the individual listed above warrants the attention of an instructor.</p>
