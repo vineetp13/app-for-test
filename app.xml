@@ -355,7 +355,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available murakami12345.   
+      The agenda is not available murakami1234567.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -379,7 +379,7 @@
     <div class="legend"></div>
     <div id="stage_content">
     	<ol>
-      <li> <a class="btn btn-small btn-danger" id="triggerSubmitIdea" style="margin: 20px;"> Current stage: Think of your idea. Type it in.</a>
+      <li> <a class="btn btn-small btn-danger" id="triggerStage1" style="margin: 20px;"> Current stage: Think of your idea. Type it in.</a>
       <textarea wrap="physical" cols="20" name="comments3" rows="3"></textarea><br/>
       </li><li> 2. Next stage: Discuss your ideas with the group. Here are your ideas: </li> 
       3. Select best two ideas. Type them in.  
@@ -399,7 +399,23 @@
   </div>
   
   
-  
+    <div id="stage1" class="idea">
+    <div class="idea-header">
+      <h3>Submit Idea</h3>
+    </div>
+    <form id="ideaForm">
+      <div class="idea-body">
+        <label for="ideas-list">Offending Idea:</label>
+        <label>Describe your idea</label><br>
+        <textarea wrap="physical" cols="40" name="comments2" rows="3"></textarea><br/>
+      </div>
+      <div class="idea-footer" style="padding-top: 5px; ">
+        <p>The teaching staff takes these reports seriously. Please submit a report only if you believe the behavior of the individual listed above warrants the attention of an instructor.</p>
+        <a onclick='closeSubmitIdea()' class="closeS btn">Close</a>
+        <a id="submitIdea" class="btn btn-primary">Submit Idea</button>
+      </div>
+    </form>
+  </div>
   
   
    <!----<div style="width: 420px; background-color: #000000; position: relative; bottom: 0; left:20; z-index: 4;">
@@ -414,6 +430,22 @@
 </html>
 
 <script>
+	
+  //vineet - Submit Idea portions
+  $('#triggerStage1').click(function() {
+    $('#triggerStage1').show();
+    $('#stage1').show();
+    recenterCanvas();
+  });
+  
+   $('#stage1').click(function () {
+    var idea_data1 = JSON.stringify($('#ideaForm').serializeObject());
+    activateSilentAlarm(idea_data1);
+    $('#stage1').hide();
+    $('#confirmstage1').show();
+  });	
+	
+	
   var CANVAS_WIDTH;
   var CANVAS_HEIGHT = 450;
   var MIN_WIDTH = 300;
