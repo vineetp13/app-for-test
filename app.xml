@@ -336,7 +336,7 @@
     gapi.hangout.onApiReady.add(
       function(eventObj) {
         if (eventObj.isApiReady) {
-            gapi.hangout.layout.setChatPaneVisible(false);
+            gapi.hangout.layout.setChatPaneVisible(true);
             gapi.hangout.layout.displayNotice("Pro-Tip: For better audio quality, use a headset or headphones.", true);
             setCanvas();
         }
