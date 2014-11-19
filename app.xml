@@ -61,7 +61,6 @@
   
    #stage_container {
     float: right;
-    //position:fixed
     width: 200px;
     padding: 20px;
     bottom: 0;
@@ -355,7 +354,7 @@
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available tokyo12.   
+      The agenda is not available haruki.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -385,9 +384,9 @@
     </div>
   </div>
   
-   <div style="width: 420px; background-color: #000000; position: relative; bottom: 0; left:20; z-index: 4;">
+   <!----<div style="width: 420px; background-color: #000000; position: relative; bottom: 0; left:20; z-index: 4;">
     <a class="btn btn-small btn-danger" id="triggerNextStage" style="margin: 20px;">Next Stage</a>
-  </div>
+  </div>--->
   
   <div id="nextStage" style="display:hidden;">
       <h3>Next stage is "Let's stay excited"stage </h3>
