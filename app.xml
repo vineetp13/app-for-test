@@ -73,7 +73,7 @@
     width: 380px;
     padding: 20px;
     bottom: 0;
-    height: 500px;
+    height: 600px;
   }
 
   .legend {
@@ -387,15 +387,15 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available colorlesstsukurutazaki7.   
+      The agenda is not available colorlesstsukurutazaki8.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
           <span>Exit this Hangout and re-enter from the Talkabout course page. On the same Talkabout page, click the "Enter Hangout"/"Join the Hangout" buttons to re-launch the Hangout.</span>
         </div>
     </div>
-    
-    <!---Problem panel
+    <div class="legend"></div>
+    <!--Problem panel-->
     <div id="problem_container" style="overflow:scroll; position:relative;">
     <div id="problem-header">
       <span id="problem-label">Problem</span>
@@ -407,7 +407,7 @@ $( document ).ready(function() {
     <div id="problem_content">
       This is the problem  
       <br><br>
-    </div>--->
+    </div>
     
       <!-- STAGE PANEL-->
   <!----<div id="show_stage">
@@ -415,7 +415,7 @@ $( document ).ready(function() {
   </div>
     --->
    
-    
+    <div class="legend"></div>
    <div id="stage_container" style="overflow:scroll; position:relative;">
     <a id="hide_stage" style="float:right; font-size:14pt; padding: 5px; text-decoration:none; color:#00000; cursor: pointer;" title="Hide Discussion Topics">&times;</a>
     <div id="stage-header">
@@ -450,12 +450,12 @@ $( document ).ready(function() {
       	
       </li><li>Share your ideas <br> 
       Here's your idea: 
-      <h2 id="message2"></h2>
+      <h1 id="message2"></h1>
       
   <script>
 $( document ).ready(function() {
     $('#ideatextbox').change(function(){
-        $('#message2').html('Hello,' + $('#name').val() + 'your idea is ' + $('#ideatextbox').val() + '. You must discuss it now.' );
+        $('#message2').html('Hello' + $('#name').val() + ', your idea is: ' + $('#ideatextbox').val() + '. <br>You must discuss it now!' );
     });
 });
 </script>
