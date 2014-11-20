@@ -362,7 +362,7 @@
      the person.</li></ol><br/><a onclick='closeReportMisconduct()' class='closeReportMisconduct btn'>Close</a>
   </div>
 
-<label>Enter you name:</label><input id="name" type ="text"/><br/>
+<label>Please enter you name:</label><input id="name" type ="text"/><br/>
 <h2 id="message"></h2>
 
 <script>
