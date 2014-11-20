@@ -387,7 +387,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available colorlesstsukurutazaki3.   
+      The agenda is not available colorlesstsukurutazaki4.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -451,7 +451,7 @@ $( document ).ready(function() {
       </li><li> Discuss challenges. 
     <!----   Idea1: <textarea wrap="physical" cols="40" name="comments3" rows="3"></textarea><br/>
        Idea2: <textarea wrap="physical" cols="40" name="comments4" rows="3"></textarea><br/> --->
-      </li><li>  Conclusion + create artifact   
+      </li><li>  Conclusion + write-up   
      </ol>
       <br><br>
   
@@ -473,7 +473,7 @@ $( document ).ready(function() {
      <div class="idea-body">
         <label for="ideas-list">Offending Idea:</label>
         <label>Describe your idea</label><br>
-        <!--<textarea wrap="physical" cols="40" name="ideatextbox2" rows="3" id="ideatextbox"></textarea><br/>-->
+        <!--<textarea wrap="physical" cols="40" name="ideatextbox2" rows="3" id="ideatextbox2"></textarea><br/>-->
      </div>
       <div class="idea-footer" style="padding-top: 5px; ">
         <p>This is where you submit the idea</p>
