@@ -387,7 +387,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available colorlesstsukurutazaki18.   
+      The agenda is not available colorlesstsukurutazaki19.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -425,7 +425,7 @@ $( document ).ready(function() {
     
     <div id="problem_content">
     	<span id="stage-label">Problem</span>
-      <font size="20"><b>This is the problem </b></font>
+      <font size="10"><br>This is the problem </br></font>
       <br><br>
     </div>
     
