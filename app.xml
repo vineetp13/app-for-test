@@ -362,6 +362,17 @@
      the person.</li></ol><br/><a onclick='closeReportMisconduct()' class='closeReportMisconduct btn'>Close</a>
   </div>
 
+<label>Enter you name:</label><input id="name" type ="text"/><br/>
+<h2 id="message"></h2>
+
+<script>
+$( document ).ready(function() {
+    $('#name').change(function(){
+        $('#message').html('Hello ' + $('#name').val());
+    });
+});
+</script>
+
   <!-- AGENDA PANEL-->
   <div id="show_agenda">
     <span id="show_agenda_label" style="font-size: 10pt;">Show Agenda  &#9660;</span>
@@ -403,17 +414,7 @@
     <span id="show_stage_label" style="font-size: 10pt;">Show Stage &#9660;</span>
   </div>
     --->
-    
-    <label>Enter you name:</label><input id="name" type ="text"/><br/>
-<h3 id="message"></h3>
-
-<script>
-$( document ).ready(function() {
-    $('#name').change(function(){
-        $('#message').html('Hello ' + $('#name').val());
-    });
-});
-</script>
+   
     
    <div id="stage_container" style="overflow:scroll; position:relative;">
     <a id="hide_stage" style="float:right; font-size:14pt; padding: 5px; text-decoration:none; color:#00000; cursor: pointer;" title="Hide Discussion Topics">&times;</a>
