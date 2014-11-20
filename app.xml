@@ -392,7 +392,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda will be made available murakami3.   
+      The agenda will be made available murakami4.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -483,7 +483,19 @@ $( document ).ready(function() {
   });
   </script>
       	
+      	<script>
+      	 function shows2() {
+   document.getElementById('s2').style.display = "block";
+}
+</script>
+
       </li><li>Share your ideas <br> 
+       <input class="btn btn-small btn-danger" name="answer" value="Show More" onclick="shows1()" />
+       <div id="s2" style="display:none;" class="well">
+      	Present your idea to the group. Provide details.  <br> 
+      	Invite feedback on your idea. <br>
+      	Working with your everyone, find the best two ideas. <br>
+      	</div>
        
       <h1 id="message2"></h1>
       
