@@ -387,7 +387,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available colorlesstsukurutazaki8.   
+      The agenda is not available colorlesstsukurutazaki9.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -399,15 +399,15 @@ $( document ).ready(function() {
     <div id="problem_container" style="overflow:scroll; position:relative;">
     <div id="problem-header">
       <span id="problem-label">Problem</span>
-      <div id="problem_details" style="padding-right:20px;"> 
+      <!---<div id="problem_details" style="padding-right:20px;"> 
         &nbsp;
-      </div>
+    </div>-->
     </div>
-    <div class="legend"></div>
+   <!--- <div class="legend"></div>
     <div id="problem_content">
       This is the problem  
       <br><br>
-    </div>
+    </div>-->
     
       <!-- STAGE PANEL-->
   <!----<div id="show_stage">
