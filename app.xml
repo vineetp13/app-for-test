@@ -392,7 +392,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda will be made available murakami9.   
+      The agenda will be made available murakami10.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -406,7 +406,7 @@ $( document ).ready(function() {
     <!--<div id="problem_container" style="overflow:scroll; position:relative;">
    
     <div id="problem-header">
-      <span id="problem-label">Problem</span>
+      <span id="problem-label">1</span>
       <div id="problem_details" style="padding-right:20px;"> 
         &nbsp;
     </div>
@@ -430,14 +430,14 @@ $( document ).ready(function() {
    -->
     
     <div id="problem_content">
-    	<span id="stage-label">Problem
-      <br>This is the problem </br></span>
+    	<span id="stage-label">1. Problem
+      <br>In this discussion, we will discuss the problem: 'How to involve more organizations and individuals into philanthrophy around the world?' </br></span>
       <br><br>
     </div>
     
     <div id="stage-header">
     	
-      <span id="stage-label">Stages in problem-solving</span>
+      <span id="stage-label">2. Stages in problem-solving</span>
       <div id="stage_details" style="padding-right:20px;"> 
         &nbsp;
       </div>
