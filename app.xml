@@ -471,7 +471,8 @@ $( document ).ready(function() {
     //var idea_data1 = JSON.stringify($('#ideaForm').serializeObject());
     //activateSilentAlarm(idea_data1);
     $('#ideatextbox').hide();
-    $('s1').hide();
+    //$('s1').hide();
+    $('#s1').hide();
      $('#message2').html('Hello,' + $('#name').val() + 'your idea is ' + $('#ideatextbox').val() + '. You must discuss it now.' );
   });
   </script>
