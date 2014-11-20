@@ -392,7 +392,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda will be made available murakami2.   
+      The agenda will be made available murakami3.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -462,7 +462,7 @@ $( document ).ready(function() {
       	<!---<div id="welcomeDiv"  style="display:none;" class="answer_list" > WELCOME</div>-->
 <input class="btn btn-small btn-danger" name="answer" value="Show More" onclick="shows1()" />
 
-	<div id="s1" style="display:none;">
+	<div id="s1" style="display:none;" class="well">
       	Think of an idea by yourself. <br> 
       	Discuss with a partner. <br>
       	Type it in the box <br>
