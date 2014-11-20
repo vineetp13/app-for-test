@@ -392,7 +392,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda will be made available murakami8.   
+      The agenda will be made available murakami9.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -460,7 +460,7 @@ $( document ).ready(function() {
       
       <li> Think-pair stage <br>
       	<!---<div id="welcomeDiv"  style="display:none;" class="answer_list" > WELCOME</div>-->
-<input class=class="btn btn-primary" name="answer" value="Show More" onclick="shows1()" />
+<input class="btn btn-primary" name="answer" value="Show More" onclick="shows1()" />
 
 	<div id="s1" style="display:none;" class="well">
 		Moderator will provide details about using app#2. <br>
