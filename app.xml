@@ -120,6 +120,11 @@
     font-weight: 600;
   }
   
+  #message2 {
+    font-size: 18pt;
+    font-weight: 600;
+  }
+  
   #problem-label {
     font-size: 24pt;
     font-weight: 600;
@@ -387,7 +392,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available colorlesstsukurutazaki22.   
+      The agenda is not available colorlesstsukurutazaki23.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
