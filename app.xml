@@ -419,7 +419,7 @@ $( document ).ready(function() {
    <div id="stage_container" style="overflow:scroll; position:relative;">
     <a id="hide_stage" style="float:right; font-size:14pt; padding: 5px; text-decoration:none; color:#00000; cursor: pointer;" title="Hide Discussion Topics">&times;</a>
     <div id="stage-header">
-      <span id="stage-label">Stage</span>
+      <span id="stage-label">Stages in problem-solving</span>
       <div id="stage_details" style="padding-right:20px;"> 
         &nbsp;
       </div>
@@ -427,24 +427,30 @@ $( document ).ready(function() {
     <div class="legend"></div>
     <div id="stage_content">
     	<ol>
-      <li> <a class="btn btn-small btn-danger" id="triggerStage1" style="margin: 20px;"> Current stage: Think of your idea. Type it in.</a>
+      <!---<li> <a class="btn btn-small btn-danger" id="triggerStage1" style="margin: 20px;"> Current stage: .</a>
+     -->
       
-      </li><li> Next stage: Discuss your ideas with the group. Here are your ideas:
-      <h3 id="message2"></h3>
+      <li> Think-pair stage <br>
+      	Think of an idea by yourself. <br> 
+      	Discuss with a partner. <br>
+      	Type it in the box <br>
+      	
+      </li><li>Share your idea with everyone. <br> 
+      Here's your idea: 
+      <h2 id="message2"></h2>
       
   <script>
 $( document ).ready(function() {
     $('#ideatextbox').change(function(){
-        $('#message2').html('Hello, your idea is ' + $('#ideatextbox').val());
+        $('#message2').html('Hello,' + $('#name').val() + 'your idea is ' + $('#ideatextbox').val() + '. You must discuss it now. );
     });
 });
 </script>
       
-      </li><li> Select best two ideas. Type them in the textboxes below. 
-       Idea1: <textarea wrap="physical" cols="40" name="comments3" rows="3"></textarea><br/>
-       Idea2: <textarea wrap="physical" cols="40" name="comments4" rows="3"></textarea><br/>
-      </li><li> Pair with a group to discuss one idea to discuss the challenges. Type in the challenges. 
-      </li><li> Discuss the challenges and derive a conclusion.      
+      </li><li> Discuss challenges. 
+    <1----   Idea1: <textarea wrap="physical" cols="40" name="comments3" rows="3"></textarea><br/>
+       Idea2: <textarea wrap="physical" cols="40" name="comments4" rows="3"></textarea><br/> --->
+      </li><li>  Conclusion + create artifact   
      </ol>
       <br><br>
   
