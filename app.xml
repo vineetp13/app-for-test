@@ -387,7 +387,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available colorlesstsukurutazaki19.   
+      The agenda is not available colorlesstsukurutazaki20.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -471,14 +471,14 @@ $( document ).ready(function() {
     //var idea_data1 = JSON.stringify($('#ideaForm').serializeObject());
     //activateSilentAlarm(idea_data1);
     $('#ideatextbox').hide();
-    $('#s1').hide();
+    $('s1').hide();
      $('#message2').html('Hello,' + $('#name').val() + 'your idea is ' + $('#ideatextbox').val() + '. You must discuss it now.' );
   });
   </script>
       	
       </li><li>Share your ideas <br> 
       Here's your idea: 
-      <h1 id="message2"></h1>
+      <div id="message2"></div>
       
   <script>
 $( document ).ready(function() {
