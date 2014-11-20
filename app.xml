@@ -392,7 +392,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda will be made available murakami2.   
+      The agenda will be made available murakami3.    
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -431,11 +431,11 @@ $( document ).ready(function() {
     
     <div id="problem_content">
     	<span id="stage-label">1. Problem
-    		
+    </div>  		
       <br>In this discussion, we will discuss the problem: 'How do we involve more organizations and individuals into philanthrophy around the world?' </br></span>
  
       <br><br>
-    </div>
+  
     
     <div id="stage-header">
     	
