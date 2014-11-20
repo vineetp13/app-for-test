@@ -392,7 +392,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda will be made available murakami10.   
+      The agenda will be made available murakami1.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -460,7 +460,7 @@ $( document ).ready(function() {
       
       <li> Think-pair stage <br>
       	<!---<div id="welcomeDiv"  style="display:none;" class="answer_list" > WELCOME</div>-->
-<input class="btn btn-primary" name="answer" value="Show More" onclick="shows1()" />
+<input class="btn btn-small btn-primary" name="answer" value="Show More" onclick="shows1()" />
 
 	<div id="s1" style="display:none;" class="well">
 		Moderator will provide details about using app#2. <br>
@@ -494,7 +494,7 @@ $( document ).ready(function() {
 </script>
 
       </li><li>Share your ideas <br> 
-       <input class="btn btn-small btn-danger" name="answer" value="Show More" onclick="shows2()" />
+       <input class="btn btn-small btn-primary" name="answer" value="Show More" onclick="shows2()" />
        <div id="s2" style="display:none;" class="well">
       	Present your idea to the group. Provide details.  <br> 
       	Invite feedback on your idea. <br>
@@ -518,7 +518,7 @@ $( document ).ready(function() {
 </script>
       
       </li><li> Discuss challenges. <br>
-      <input class="btn btn-small btn-danger" name="answer" value="Show More" onclick="shows3()" />
+      <input class="btn btn-small btn-primary" name="answer" value="Show More" onclick="shows3()" />
       
       <div id="s3" style="display:none;" class="well">
       	Pick up idea#1 and discuss the challenges with it - also, discuss solutions.  <br> 
