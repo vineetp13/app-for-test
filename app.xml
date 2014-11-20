@@ -392,7 +392,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda will be made available murakami7.   
+      The agenda will be made available murakami8.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -494,7 +494,7 @@ $( document ).ready(function() {
 </script>
 
       </li><li>Share your ideas <br> 
-       <input class="btn btn-small btn-danger" name="answer" value="Show More" onclick="shows1()" />
+       <input class="btn btn-small btn-danger" name="answer" value="Show More" onclick="shows2()" />
        <div id="s2" style="display:none;" class="well">
       	Present your idea to the group. Provide details.  <br> 
       	Invite feedback on your idea. <br>
@@ -511,7 +511,19 @@ $( document ).ready(function() {
 });
 </script>
       
-      </li><li> Discuss challenges. 
+          <script>
+      	 function shows3() {
+   document.getElementById('s3').style.display = "block";
+}
+</script>
+      
+      </li><li> Discuss challenges. <br>
+      <input class="btn btn-small btn-danger" name="answer" value="Show More" onclick="shows3()" />
+      
+      <div id="s3" style="display:none;" class="well">
+      	Pick up idea#1 and discuss the challenges with it - also, discuss solutions.  <br> 
+      	Repeat for idea#2 <br>
+      	</div>
       
     <!----   Idea1: <textarea wrap="physical" cols="40" name="comments3" rows="3"></textarea><br/>
        Idea2: <textarea wrap="physical" cols="40" name="comments4" rows="3"></textarea><br/> --->
