@@ -387,7 +387,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available colorlesstsukurutazaki15.   
+      The agenda is not available colorlesstsukurutazaki16.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -446,14 +446,14 @@ $( document ).ready(function() {
    document.getElementById('welcomeDiv').style.display = "block";
 }
 
-      function show1() {
+      function shows1() {
    document.getElementById('s1').style.display = "block";
 }
 </script>
       
       <li> Think-pair stage <br>
-      	<div id="welcomeDiv"  style="display:none;" class="answer_list" > WELCOME</div>
-<input type="button" name="answer" value="Show More" onclick="showDiv()" />
+      	<!---<div id="welcomeDiv"  style="display:none;" class="answer_list" > WELCOME</div>-->
+<input type="button" name="answer" value="Show More" onclick="shows1()" />
 
 	<div id="s1" style="display:none;">
       	Think of an idea by yourself. <br> 
