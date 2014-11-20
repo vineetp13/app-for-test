@@ -56,7 +56,7 @@
     float: left;
     width: 380px;
     padding: 20px;
-    height: 100px;
+    height: 500px;
     background-color: #e5e5e5;
   }
   
@@ -73,7 +73,7 @@
     width: 380px;
     padding: 20px;
     bottom: 0;
-    height: 600px;
+    height: 1000px;
   }
 
   .legend {
@@ -392,7 +392,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda will be made available murakami5.   
+      The agenda will be made available murakami6.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -463,6 +463,9 @@ $( document ).ready(function() {
 <input class="btn btn-small btn-danger" style="margin: 20px;" name="answer" value="Show More" onclick="shows1()" />
 
 	<div id="s1" style="display:none;" class="well">
+		Moderator will provide details about using app#2. <br>
+		
+		Inside app#2 <br>
       	Think of an idea by yourself. <br> 
       	Discuss with a partner. <br>
       	Type it in the box <br>
