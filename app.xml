@@ -392,7 +392,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda will be made available murakami3.   
+      The agenda will be made available murakami4.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -471,8 +471,8 @@ $( document ).ready(function() {
       	1. Think of an idea by yourself. <br> 
       	2. Discuss with a partner. <br>
       	<br>
-      	Type your in the box below: <br>
-      	<textarea wrap="physical" cols="40" name="ideatextbox" rows="3" id="ideatextbox"></textarea><br/>
+      	Type your idea in the box below: <br>
+      	<textarea wrap="physical" cols="60" name="ideatextbox" rows="3" id="ideatextbox"></textarea><br/>
       	
       		<a id="submitIdea" class="btn btn-primary">Submit Idea</button>
       	</div>
@@ -534,8 +534,13 @@ $( document ).ready(function() {
       
       <br> Please write the final idea, its challenges and the solutions here (in about 5 lines)  
       	<textarea wrap="physical" cols="40" name="conclusiontextbox" rows="3" id="conclusiontextbox"></textarea><br/> 
+      	Please copy this text into the chat box!
+      	
+      	 
      </ol>
       <br><br>
+      	Thank you for participating in this talkabout! 
+      	
   
     </div>
    </div>
