@@ -387,7 +387,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available colorlesstsukurutazaki12.   
+      The agenda is not available colorlesstsukurutazaki13.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -399,19 +399,19 @@ $( document ).ready(function() {
     
     <!--Problem panel-->
     <!--<div id="problem_container" style="overflow:scroll; position:relative;">
-    -->
+   
     <div id="problem-header">
       <span id="problem-label">Problem</span>
-      <!---<div id="problem_details" style="padding-right:20px;"> 
+      <div id="problem_details" style="padding-right:20px;"> 
         &nbsp;
-    </div>-->
     </div>
-   <!--- <div class="legend"></div>
+    </div>
+   <div class="legend"></div>
     <div id="problem_content">
       This is the problem  
       <br><br>
-    </div>-->
     </div>
+    </div>-->
     
       <!-- STAGE PANEL-->
   <!----<div id="show_stage">
@@ -422,7 +422,14 @@ $( document ).ready(function() {
     <div class="legend"></div>
    <div id="stage_container" style="overflow:scroll; position:relative;">
     <a id="hide_stage" style="float:right; font-size:14pt; padding: 5px; text-decoration:none; color:#00000; cursor: pointer;" title="Hide Discussion Topics">&times;</a>
+    
+    <div id="problem_content">
+      This is the problem  
+      <br><br>
+    </div>
+    
     <div id="stage-header">
+    	
       <span id="stage-label">Stages in problem-solving</span>
       <div id="stage_details" style="padding-right:20px;"> 
         &nbsp;
