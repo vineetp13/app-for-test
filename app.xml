@@ -387,7 +387,7 @@ $( document ).ready(function() {
     </div>
     <div class="legend"></div>
     <div id="agenda_content">
-      The agenda is not available colorlesstsukurutazaki13.   
+      The agenda is not available colorlesstsukurutazaki15.   
       <br><br>
         <div class="well">
           <b>If you cannot view the agenda...</b>
@@ -445,17 +445,24 @@ $( document ).ready(function() {
       function showDiv() {
    document.getElementById('welcomeDiv').style.display = "block";
 }
+
+      function show1() {
+   document.getElementById('s1').style.display = "block";
+}
 </script>
       
       <li> Think-pair stage <br>
       	<div id="welcomeDiv"  style="display:none;" class="answer_list" > WELCOME</div>
-<input type="button" name="answer" value="Show Div" onclick="showDiv()" />
+<input type="button" name="answer" value="Show More" onclick="showDiv()" />
+
+	<div id="s1" style="display:none;">
       	Think of an idea by yourself. <br> 
       	Discuss with a partner. <br>
       	Type it in the box <br>
       	<textarea wrap="physical" cols="40" name="ideatextbox" rows="3" id="ideatextbox"></textarea><br/>
       	
       		<a id="submitIdea" class="btn btn-primary">Submit Idea</button>
+      	</div>
       		
       		<script>
   //vineet - Submit Idea portions
